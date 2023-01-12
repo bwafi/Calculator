@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f5f9;
+  font-family: 'Viga', sans-serif;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  width: 280px;
+  height: 420px;
+  background-color: #c9d6df;
+  box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.6);
+  border-radius: 40px;
+}
+
+h4 {
+  color: #52616b;
+  font-size: 1.4em;
+  padding: 8px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px rgba(63, 61, 61, 0.3);
+}
+
+.textarea {
+  font-size: 1.7em;
+  width: 80%;
+  height: 45px;
+  border-radius: 19px;
+  box-shadow: inset 5px 5px 11px rgba(0, 0, 0, 0.16), 5px 5px 12px #a7bcca;
+  background-color: #f1f3f5;
+  border: none;
+  outline: none;
+  padding: 0 9px;
+  text-align: end;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.button {
+  border: none;
+  font-family: 'Viga', sans-serif;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #1e2022;
+  color: #e2edf7;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 2px;
+  box-shadow: 3px 3px 3px rgba(25, 25, 26, 0.6);
+
+  /* border: 1px solid white; */
+}
+
+.equal {
+  height: 115px;
+  width: 50px;
+  border-radius: 20px;
+}
+
+.btn-light {
+  box-shadow: 3px 3px 3px rgba(25, 25, 26, 0.5);
+  background-color: #92989c;
+  color: #1e2022;
+  font-size: 1.9em;
+}
+
+.button:active {
+  background-color: white;
+  color: black;
+}
